@@ -1,0 +1,24 @@
+.input{
+  border: 3px solid #ae7000;
+}
+
+.boos-text-enter{
+  opacity: 0;
+}
+.boos-text-enter-active{
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+.boos-text-enter-done {
+  opacity: 1;
+}
+.boos-text-exit{
+  opacity: 1;
+}
+.boos-text-exit-active{
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+.boos-text-exit-done {
+  opacity: 0;
+}

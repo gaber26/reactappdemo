@@ -1,0 +1,50 @@
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(243, 244, 245, 1);
+  .header{
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff !important;
+    box-shadow: 0 1px 4px rgba(0,21,41,.08);
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    line-height: 50px;
+  }
+  .main-box{
+    min-height: 100%;
+    transition: margin-left .28s;
+    position: relative;
+    .main-content{
+      // padding: 20px;
+    }
+  }
+  .tabBar{
+    transition: width .28s;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    z-index: 98;
+    background-color: white;
+    ul{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      z-index: 99;
+      li{
+        text-align: center;
+        margin-top: 5px;
+        a{
+          color: #ccc;
+          display: inline-block;
+          width: 100%;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
