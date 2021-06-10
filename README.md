@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Name: gaber 
+Remark: React移动端Demo
 
 ## Available Scripts
 
