@@ -9,7 +9,7 @@ class Xiaojiejie extends Component {  // 类名  继承  react组件
     super(props)  // 调用父级方法
     this.state = {
       inputValue: '',
-      list: ['小米', '网大葱'],
+      list: ['小米'],
       articleListInfo:[]
     }
   }
@@ -34,9 +34,9 @@ class Xiaojiejie extends Component {  // 类名  继承  react组件
           {/* 外层类似vue必须加一层盒子，但是加了这个就可以不用增加额外盒子 */}
           {/* 绑定事件必须要.bind(this)进去，或者使用箭头函数，不然无法找到this */}
           <div>
-            <label htmlFor="input" >增加男朋友</label>
+            <label htmlFor="input" >增加</label>
             <input id="input" className="input" value={this.state.inputValue} onChange={(e) => {this.inputChange(e)}} />
-            <button onClick={() => {this.addClick()}}>增加男朋友</button>
+            <button onClick={() => {this.addClick()}}>增加</button>
           </div>
           <ul ref={(ul) => {this.ulDom = ul}}>
             <TransitionGroup>

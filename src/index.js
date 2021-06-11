@@ -5,6 +5,9 @@ import store from './store'
 import './assets/css/reset.scss'  // 基本全局样式
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
+import 'antd-mobile/dist/antd-mobile.css';        // 加载 CSS
+// import 'antd-mobile/lib/date-picker/style';         // 加载 LESS
+
 import Tabbar from './tabbar'
 
 ReactDOM.render(
